@@ -1,5 +1,6 @@
 import React from 'react'
 import Button from './Button'
+import Footer from './Footer'
 
 const Main = () => {
   return (
@@ -12,6 +13,7 @@ const Main = () => {
                  <Button text="Login" class="btn-outline-info"/>
         </div>
     </div>
+  
     </>
   )
 }
