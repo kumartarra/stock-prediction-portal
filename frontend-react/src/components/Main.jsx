@@ -10,7 +10,7 @@ const Main = () => {
             <h1 className='text-light'>Stock Prediction App</h1>
             <p className='text-light lead'>Stock market prediction is the act of trying to determine the future value of a company stock or other financial instrument traded on an exchange.
                  The successful prediction of a stock's future price could yield significant profit.</p>
-                 <Button text="Login" class="btn-outline-info"/>
+                 <Button text="Explore Now" class="btn-outline-info" url='/dashboard'/>
         </div>
     </div>
   

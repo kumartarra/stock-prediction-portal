@@ -28,7 +28,7 @@ const Login = () => {
       localStorage.setItem("refreshToken", response.data.refresh)
       console.log("login done")
       setIsLoggedIn(true)
-      navigate("/")
+      navigate("/dashboard")
     }catch(error){
       setError("invalid details")
       console.error("Invalid details")
